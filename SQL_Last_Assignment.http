@@ -1,0 +1,6 @@
+@SQL_Last_Assignment_HostAddress = http://localhost:5029
+
+GET {{SQL_Last_Assignment_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

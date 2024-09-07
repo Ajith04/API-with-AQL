@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SQL_Last_Assignment.props" />
+</Project>

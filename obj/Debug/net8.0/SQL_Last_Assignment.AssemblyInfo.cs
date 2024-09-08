@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SQL_Last_Assignment")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f414036b6d1b31bd32928bb8d542ff1119b12c21")]
 [assembly: System.Reflection.AssemblyProductAttribute("SQL_Last_Assignment")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SQL_Last_Assignment")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -12,7 +12,7 @@ using SQL_Last_Assignment.DbContexts;
 namespace SQL_Last_Assignment.Migrations
 {
     [DbContext(typeof(CompanyDbContext))]
-    [Migration("20240907125558_Initial")]
+    [Migration("20240908032256_Initial")]
     partial class Initial
     {
         /// <inheritdoc />

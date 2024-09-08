@@ -71,5 +71,16 @@ namespace SQL_Last_Assignment.Repositories
             var resultProduct = await _companydbcontext.Products.Where(r => r.Name.Contains(product_name)).Skip((page_number-1) * page_size).Take(page_size).ToListAsync();
             return resultProduct;
         }
+        //public async Task<List<Product>> BulkPriceUpdate(Dictionary<Guid, decimal> bulkPrices)
+        //{
+        //    var products = await _companydbcontext.Products.Where(p => bulkPrices.Keys.Contains(p.Id)).ToListAsync();
+        //    foreach (var product in products)
+        //    {
+        //        product.Price = bulkPrices[product.Id];
+        //        await _companydbcontext.SaveChangesAsync();
+        //    }
+        //    return products;
+
+        //}
     }
 }
